@@ -3,7 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 class App extends React.Component {
-  constructor() {localStorage
+  constructor() {
     super();
     this.state = { value: "javascript:alert('Hacked!');" };
     this.handleChange = this.handleChange.bind(this);

@@ -1,0 +1,529 @@
+{
+    "type": "Program",
+    "body": [
+        {
+            "type": "ClassDeclaration",
+            "id": {
+                "type": "Identifier",
+                "name": "Text"
+            },
+            "superClass": {
+                "type": "MemberExpression",
+                "computed": false,
+                "object": {
+                    "type": "Identifier",
+                    "name": "React"
+                },
+                "property": {
+                    "type": "Identifier",
+                    "name": "Component"
+                }
+            },
+            "body": {
+                "type": "ClassBody",
+                "body": [
+                    {
+                        "type": "MethodDefinition",
+                        "key": {
+                            "type": "Identifier",
+                            "name": "render"
+                        },
+                        "computed": false,
+                        "value": {
+                            "type": "FunctionExpression",
+                            "id": null,
+                            "params": [],
+                            "body": {
+                                "type": "BlockStatement",
+                                "body": [
+                                    {
+                                        "type": "ReturnStatement",
+                                        "argument": {
+                                            "type": "JSXElement",
+                                            "openingElement": {
+                                                "type": "JSXOpeningElement",
+                                                "name": {
+                                                    "type": "JSXIdentifier",
+                                                    "name": "p"
+                                                },
+                                                "selfClosing": false,
+                                                "attributes": [
+                                                    {
+                                                        "type": "JSXAttribute",
+                                                        "name": {
+                                                            "type": "JSXIdentifier",
+                                                            "name": "dangerouslySetInnerHTML"
+                                                        },
+                                                        "value": {
+                                                            "type": "JSXExpressionContainer",
+                                                            "expression": {
+                                                                "type": "ObjectExpression",
+                                                                "properties": [
+                                                                    {
+                                                                        "type": "Property",
+                                                                        "key": {
+                                                                            "type": "Identifier",
+                                                                            "name": "__html"
+                                                                        },
+                                                                        "computed": false,
+                                                                        "value": {
+                                                                            "type": "MemberExpression",
+                                                                            "computed": false,
+                                                                            "object": {
+                                                                                "type": "MemberExpression",
+                                                                                "computed": false,
+                                                                                "object": {
+                                                                                    "type": "ThisExpression"
+                                                                                },
+                                                                                "property": {
+                                                                                    "type": "Identifier",
+                                                                                    "name": "props"
+                                                                                }
+                                                                            },
+                                                                            "property": {
+                                                                                "type": "Identifier",
+                                                                                "name": "text"
+                                                                            }
+                                                                        },
+                                                                        "kind": "init",
+                                                                        "method": false,
+                                                                        "shorthand": false
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "children": [],
+                                            "closingElement": {
+                                                "type": "JSXClosingElement",
+                                                "name": {
+                                                    "type": "JSXIdentifier",
+                                                    "name": "p"
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "generator": false,
+                            "expression": false,
+                            "async": false
+                        },
+                        "kind": "method",
+                        "static": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "ClassDeclaration",
+            "id": {
+                "type": "Identifier",
+                "name": "App"
+            },
+            "superClass": {
+                "type": "MemberExpression",
+                "computed": false,
+                "object": {
+                    "type": "Identifier",
+                    "name": "React"
+                },
+                "property": {
+                    "type": "Identifier",
+                    "name": "Component"
+                }
+            },
+            "body": {
+                "type": "ClassBody",
+                "body": [
+                    {
+                        "type": "MethodDefinition",
+                        "key": {
+                            "type": "Identifier",
+                            "name": "constructor"
+                        },
+                        "computed": false,
+                        "value": {
+                            "type": "FunctionExpression",
+                            "id": null,
+                            "params": [],
+                            "body": {
+                                "type": "BlockStatement",
+                                "body": [
+                                    {
+                                        "type": "ExpressionStatement",
+                                        "expression": {
+                                            "type": "CallExpression",
+                                            "callee": {
+                                                "type": "Super"
+                                            },
+                                            "arguments": []
+                                        }
+                                    },
+                                    {
+                                        "type": "ExpressionStatement",
+                                        "expression": {
+                                            "type": "AssignmentExpression",
+                                            "operator": "=",
+                                            "left": {
+                                                "type": "MemberExpression",
+                                                "computed": false,
+                                                "object": {
+                                                    "type": "ThisExpression"
+                                                },
+                                                "property": {
+                                                    "type": "Identifier",
+                                                    "name": "state"
+                                                }
+                                            },
+                                            "right": {
+                                                "type": "ObjectExpression",
+                                                "properties": [
+                                                    {
+                                                        "type": "Property",
+                                                        "key": {
+                                                            "type": "Identifier",
+                                                            "name": "text"
+                                                        },
+                                                        "computed": false,
+                                                        "value": {
+                                                            "type": "Literal",
+                                                            "value": "",
+                                                            "raw": "\\"\\""
+                                                        },
+                                                        "kind": "init",
+                                                        "method": false,
+                                                        "shorthand": false
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "ExpressionStatement",
+                                        "expression": {
+                                            "type": "AssignmentExpression",
+                                            "operator": "=",
+                                            "left": {
+                                                "type": "MemberExpression",
+                                                "computed": false,
+                                                "object": {
+                                                    "type": "ThisExpression"
+                                                },
+                                                "property": {
+                                                    "type": "Identifier",
+                                                    "name": "handleChange"
+                                                }
+                                            },
+                                            "right": {
+                                                "type": "CallExpression",
+                                                "callee": {
+                                                    "type": "MemberExpression",
+                                                    "computed": false,
+                                                    "object": {
+                                                        "type": "MemberExpression",
+                                                        "computed": false,
+                                                        "object": {
+                                                            "type": "ThisExpression"
+                                                        },
+                                                        "property": {
+                                                            "type": "Identifier",
+                                                            "name": "handleChange"
+                                                        }
+                                                    },
+                                                    "property": {
+                                                        "type": "Identifier",
+                                                        "name": "bind"
+                                                    }
+                                                },
+                                                "arguments": [
+                                                    {
+                                                        "type": "ThisExpression"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "generator": false,
+                            "expression": false,
+                            "async": false
+                        },
+                        "kind": "constructor",
+                        "static": false
+                    },
+                    {
+                        "type": "MethodDefinition",
+                        "key": {
+                            "type": "Identifier",
+                            "name": "handleChange"
+                        },
+                        "computed": false,
+                        "value": {
+                            "type": "FunctionExpression",
+                            "id": null,
+                            "params": [
+                                {
+                                    "type": "Identifier",
+                                    "name": "e"
+                                }
+                            ],
+                            "body": {
+                                "type": "BlockStatement",
+                                "body": [
+                                    {
+                                        "type": "ExpressionStatement",
+                                        "expression": {
+                                            "type": "CallExpression",
+                                            "callee": {
+                                                "type": "MemberExpression",
+                                                "computed": false,
+                                                "object": {
+                                                    "type": "ThisExpression"
+                                                },
+                                                "property": {
+                                                    "type": "Identifier",
+                                                    "name": "setState"
+                                                }
+                                            },
+                                            "arguments": [
+                                                {
+                                                    "type": "ObjectExpression",
+                                                    "properties": [
+                                                        {
+                                                            "type": "Property",
+                                                            "key": {
+                                                                "type": "Identifier",
+                                                                "name": "text"
+                                                            },
+                                                            "computed": false,
+                                                            "value": {
+                                                                "type": "MemberExpression",
+                                                                "computed": false,
+                                                                "object": {
+                                                                    "type": "MemberExpression",
+                                                                    "computed": false,
+                                                                    "object": {
+                                                                        "type": "Identifier",
+                                                                        "name": "e"
+                                                                    },
+                                                                    "property": {
+                                                                        "type": "Identifier",
+                                                                        "name": "target"
+                                                                    }
+                                                                },
+                                                                "property": {
+                                                                    "type": "Identifier",
+                                                                    "name": "value"
+                                                                }
+                                                            },
+                                                            "kind": "init",
+                                                            "method": false,
+                                                            "shorthand": false
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "generator": false,
+                            "expression": false,
+                            "async": false
+                        },
+                        "kind": "method",
+                        "static": false
+                    },
+                    {
+                        "type": "MethodDefinition",
+                        "key": {
+                            "type": "Identifier",
+                            "name": "render"
+                        },
+                        "computed": false,
+                        "value": {
+                            "type": "FunctionExpression",
+                            "id": null,
+                            "params": [],
+                            "body": {
+                                "type": "BlockStatement",
+                                "body": [
+                                    {
+                                        "type": "ReturnStatement",
+                                        "argument": {
+                                            "type": "JSXElement",
+                                            "openingElement": {
+                                                "type": "JSXOpeningElement",
+                                                "name": {
+                                                    "type": "JSXIdentifier",
+                                                    "name": "div"
+                                                },
+                                                "selfClosing": false,
+                                                "attributes": []
+                                            },
+                                            "children": [
+                                                {
+                                                    "type": "JSXElement",
+                                                    "openingElement": {
+                                                        "type": "JSXOpeningElement",
+                                                        "name": {
+                                                            "type": "JSXIdentifier",
+                                                            "name": "form"
+                                                        },
+                                                        "selfClosing": false,
+                                                        "attributes": []
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "type": "JSXElement",
+                                                            "openingElement": {
+                                                                "type": "JSXOpeningElement",
+                                                                "name": {
+                                                                    "type": "JSXIdentifier",
+                                                                    "name": "textarea"
+                                                                },
+                                                                "selfClosing": true,
+                                                                "attributes": [
+                                                                    {
+                                                                        "type": "JSXAttribute",
+                                                                        "name": {
+                                                                            "type": "JSXIdentifier",
+                                                                            "name": "value"
+                                                                        },
+                                                                        "value": {
+                                                                            "type": "JSXExpressionContainer",
+                                                                            "expression": {
+                                                                                "type": "MemberExpression",
+                                                                                "computed": false,
+                                                                                "object": {
+                                                                                    "type": "MemberExpression",
+                                                                                    "computed": false,
+                                                                                    "object": {
+                                                                                        "type": "ThisExpression"
+                                                                                    },
+                                                                                    "property": {
+                                                                                        "type": "Identifier",
+                                                                                        "name": "state"
+                                                                                    }
+                                                                                },
+                                                                                "property": {
+                                                                                    "type": "Identifier",
+                                                                                    "name": "text"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "JSXAttribute",
+                                                                        "name": {
+                                                                            "type": "JSXIdentifier",
+                                                                            "name": "onChange"
+                                                                        },
+                                                                        "value": {
+                                                                            "type": "JSXExpressionContainer",
+                                                                            "expression": {
+                                                                                "type": "MemberExpression",
+                                                                                "computed": false,
+                                                                                "object": {
+                                                                                    "type": "ThisExpression"
+                                                                                },
+                                                                                "property": {
+                                                                                    "type": "Identifier",
+                                                                                    "name": "handleChange"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "children": [],
+                                                            "closingElement": null
+                                                        }
+                                                    ],
+                                                    "closingElement": {
+                                                        "type": "JSXClosingElement",
+                                                        "name": {
+                                                            "type": "JSXIdentifier",
+                                                            "name": "form"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "type": "JSXElement",
+                                                    "openingElement": {
+                                                        "type": "JSXOpeningElement",
+                                                        "name": {
+                                                            "type": "JSXIdentifier",
+                                                            "name": "Text"
+                                                        },
+                                                        "selfClosing": false,
+                                                        "attributes": [
+                                                            {
+                                                                "type": "JSXAttribute",
+                                                                "name": {
+                                                                    "type": "JSXIdentifier",
+                                                                    "name": "text"
+                                                                },
+                                                                "value": {
+                                                                    "type": "JSXExpressionContainer",
+                                                                    "expression": {
+                                                                        "type": "MemberExpression",
+                                                                        "computed": false,
+                                                                        "object": {
+                                                                            "type": "MemberExpression",
+                                                                            "computed": false,
+                                                                            "object": {
+                                                                                "type": "ThisExpression"
+                                                                            },
+                                                                            "property": {
+                                                                                "type": "Identifier",
+                                                                                "name": "state"
+                                                                            }
+                                                                        },
+                                                                        "property": {
+                                                                            "type": "Identifier",
+                                                                            "name": "text"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "children": [],
+                                                    "closingElement": {
+                                                        "type": "JSXClosingElement",
+                                                        "name": {
+                                                            "type": "JSXIdentifier",
+                                                            "name": "Text"
+                                                        }
+                                                    }
+                                                }
+                                            ],
+                                            "closingElement": {
+                                                "type": "JSXClosingElement",
+                                                "name": {
+                                                    "type": "JSXIdentifier",
+                                                    "name": "div"
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "generator": false,
+                            "expression": false,
+                            "async": false
+                        },
+                        "kind": "method",
+                        "static": false
+                    }
+                ]
+            }
+        }
+    ],
+    "sourceType": "script"
+}
